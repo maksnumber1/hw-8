@@ -1,0 +1,138 @@
+a.https-link {
+    color: red;
+}
+
+p {
+    text: size 24px; ;
+}
+
+/* selektor tegu */
+/* vaga ciogo selektora 0001 */
+article {
+    background-color:skyblue ;
+}
+
+/*0001*/
+p {
+    color: white;
+}
+
+/*selektor classy 0010*/
+.text {
+    color: violet;
+}
+
+/*selektor indeficatora*/
+#text {
+    color: green;
+}
+
+/*kombinacia selektoriv*/
+/*selektor susida*/
+
+/*0002*/
+/*h1 + p {
+    text-shadow: 2px 3px 5px rgb(255, 0, 43);
+}
+    */
+    /*0101*/
+   h1 + #text {
+    text-shadow: 2px 3px 5px rgb(255, 0, 43);
+} 
+
+/*selektor ditini*/
+/*0002*/
+article > img{
+    border:3px solid green;
+}
+
+/*selektor nashiadka*/
+article .info {
+    font-style: italic;
+}
+
+/*mechnism nslidovanyia*/
+body {
+    font-size: 26px;
+}
+
+/*psevdoclassi stanu*/
+a:hover {
+    color: orange;
+}
+button:hover{
+    box-shadow: 2px 3px 10px 5px green;
+}
+
+p {
+    color: blue;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+font-style: italic;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 8px;
+text-transform: uppercase;
+text-indent: 20px;
+word-spacing: 15px;
+}
+
+/*compiti 7 */
+a[href^="https"] {
+    color: red;
+}
+
+ul + p {
+    font-size: 24px;
+}
+/*compiti 8*/
+
+
+.text-box h3:first-of-type {
+    color: pink;
+}
+
+
+.text-box #greycol {
+    color: grey;
+}
+
+
+.text-box div > p {
+    color: red;
+}
+
+
+.text-box p:nth-last-of-type(2) {
+    color: green;
+}
+
+
+.text-box .yellow {
+    color: yellow;
+}
+
+
+.monday li { color: blue; }
+.tuesday li { color: green; }
+.wednesday li { color: orange; }
+.thursday li { color: red; }
+.friday li { color: purple; }
+
+
+li:hover { text-decoration: underline; }
+li:active { font-weight: bold; }
+li:first-child { text-transform: uppercase; }
+li:last-child { font-style: italic; }
+li:focus { background-color: yellow; }
+
+
+ul:nth-child(odd) { background-color: #f0f0f0; }
+ul:nth-child(even) { background-color: #d0d0d0; }
+ul:first-of-type { border: 2px solid black; }
+ul:last-of-type { border: 2px dashed black; }
+li:nth-of-type(2) { font-size: 18px; }
+
+
+
