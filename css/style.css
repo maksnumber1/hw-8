@@ -1,0 +1,45 @@
+
+.text-box h3:first-of-type {
+    color: pink;
+}
+
+
+.text-box #greycol {
+    color: grey;
+}
+
+
+.text-box div > p {
+    color: red;
+}
+
+
+.text-box p:nth-last-of-type(2) {
+    color: green;
+}
+
+
+.text-box .yellow {
+    color: yellow;
+}
+
+
+.monday li { color: blue; }
+.tuesday li { color: green; }
+.wednesday li { color: orange; }
+.thursday li { color: red; }
+.friday li { color: purple; }
+
+
+li:hover { text-decoration: underline; }
+li:active { font-weight: bold; }
+li:first-child { text-transform: uppercase; }
+li:last-child { font-style: italic; }
+li:focus { background-color: yellow; }
+
+
+ul:nth-child(odd) { background-color: #f0f0f0; }
+ul:nth-child(even) { background-color: #d0d0d0; }
+ul:first-of-type { border: 2px solid black; }
+ul:last-of-type { border: 2px dashed black; }
+li:nth-of-type(2) { font-size: 18px; }
